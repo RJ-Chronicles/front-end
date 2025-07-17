@@ -6,7 +6,7 @@ import Stopwatch from './component/stopwatch'
 
 function App() {
   useEffect(()=> {
-    document.title = 'Stopwatch App'
+    document.title = 'ReactApp | Stopwatch App'
   }, []);
 
   return (
