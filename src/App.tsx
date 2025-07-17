@@ -1,9 +1,13 @@
 
+import { useEffect } from 'react'
 import './App.css'
 import Stopwatch from './component/stopwatch'
 // hey copilot, write a stopwatch app in React with TypeScript
 
 function App() {
+  useEffect(()=> {
+    document.title = 'Stopwatch App'
+  }, []);
 
   return (
     <>
