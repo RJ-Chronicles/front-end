@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Welcome to the App version 1.2</h1>
+      <h1>Welcome to the App version 1.3</h1>
       <Stopwatch />
     </>
   )
