@@ -2,7 +2,6 @@
 import { useEffect } from 'react'
 import './App.css'
 import Stopwatch from './component/stopwatch'
-// hey copilot, write a stopwatch app in React with TypeScript
 
 function App() {
   useEffect(()=> {
@@ -11,7 +10,7 @@ function App() {
 
   return (
     <>
-      <h1>Welcome to the Stopwatch App</h1>
+      <h1>Welcome to the App version 1.2</h1>
       <Stopwatch />
     </>
   )
